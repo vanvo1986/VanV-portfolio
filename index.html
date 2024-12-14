@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- (Icons library import below) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Van Vo</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+    <style>
+      /* Import fonts */
+      @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&display=swap");
+
+      /* General styles */
+      body {
+        font-family: "Libre Franklin", Arial, sans-serif;
+        background: linear-gradient(135deg, #E9FFC2 40%, #0079FF 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #333;
+      }
+
+      /* Container styles */
+      .container {
+        background-color: #FFEED9;
+        width: 400px;
+        max-width: 100vw;
+        border-radius: 100px;
+        overflow: hidden;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Top section styles */
+      .top-section {
+        height: 300px;
+        background-image: url("https://plus.unsplash.com/premium_photo-1668713464564-f3f3c86c9ed0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      /* Bottom section styles */
+      .bottom-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 4px;
+      }
+
+      .name {
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+        transition: transform 0.3s ease;
+      }
+
+      .name:hover {
+        transform: scale(1.1);
+      }
+
+      .title {
+        color: #555;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      .linkedin {
+        color: #d91656;
+        font-size: 20px;
+        text-decoration: bolder ;
+        margin-top: 12px;
+      }
+
+      .linkedin:hover {
+        color: #0056b3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-section"></div>
+      <div class="bottom-section">
+        <h1 class="name">Van Vo</h1>
+        <h2 class="title">KU Pharmacy Candidate 2025</h2>
+        <a
+          class="linkedin"
+          href="Van.html"
+          target="_blank"
+        >LINK</a>
+      </div>
+    </div>
+  </body>
+</html>
